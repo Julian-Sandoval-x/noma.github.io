@@ -1,0 +1,62 @@
+{
+
+  "type": "module",
+
+  "scripts": {
+
+    "test": "echo \"Error: no test specified\" && exit 1",
+
+    "sass": "sass --watch src/scss:build/css",
+
+    "dev": "gulp"
+
+  },
+
+  "keywords": [
+
+    "SASS",
+
+    "NPM",
+
+    "Gulp"
+
+  ],
+
+  "devDependencies": {
+
+    "del": "^8.0.0",
+
+    "gulp": "^5.0.0",
+
+    "gulp-autoprefixer": "^9.0.0",
+
+    "gulp-notify": "^5.0.0",
+
+    "gulp-plumber": "^1.2.1",
+
+    "gulp-sass": "^5.1.0",
+
+    "gulp-sourcemaps": "^3.0.0",
+
+    "gulp-terser": "^2.1.0",
+
+    "sass": "^1.80.6"
+
+  },
+
+  "dependencies": {
+
+    "dotenv": "^16.4.7",
+
+    "express": "^4.21.1",
+
+    "path": "^0.12.7",
+
+    "php-cgi": "^0.2.0",
+
+    "url": "^0.11.4"
+
+  }
+
+}
+
